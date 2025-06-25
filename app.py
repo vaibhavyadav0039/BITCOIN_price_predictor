@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 st.set_page_config(page_title="BTC Price Direction Predictor", layout="wide")
 
 # Title
-st.title("📊 Logistic Regression App for BTC Price Direction")
+st.title("📊 Linear Regression App for BTC Price Direction")
 
 # Upload CSV
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
